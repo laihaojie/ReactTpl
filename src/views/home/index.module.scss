@@ -1,0 +1,28 @@
+.header {
+    text-align: center;
+    margin: 20px;
+
+    img {
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+    }
+
+    div {
+        margin-top: 10px;
+    }
+}
+
+.apps {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+
+    .mybtn {
+        margin-left: 5px;
+        margin-right: 5px;
+        border-color: #1989FA;
+        color: #1989FA;
+        margin-bottom: 10px;
+    }
+}
