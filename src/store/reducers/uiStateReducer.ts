@@ -6,7 +6,7 @@ export interface UIState {
   nativeData: string[]
 }
 export const initialState: Readonly<UIState> = {
-  nativeData: ["21"]
+  nativeData: ["2019"]
 };
 
 export default (originalState = initialState, action: Action) =>

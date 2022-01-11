@@ -5,9 +5,10 @@ import { useNavigate } from "react-router"
 
 const Home: FC = () => {
   const navigate = useNavigate()
+
   return (
-    <div>
-      <Button onClick={() => navigate("/")}>首页</Button>
+    <div style={{ textAlign: "center", margin: 20, }}>
+      <Button onClick={() => navigate(-1)}>首页</Button>
     </div>
   )
 }
